@@ -4,6 +4,7 @@
 @section('content')
 <div class="card">
     <div class="card-header">
+        <a href="{{route('feature.index')}}" class="btn btn-close float-end"></a>
         <h5 class="card-title">Form {{$title}}</h5>
     </div>
     <div class="card-body">
